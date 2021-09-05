@@ -1,0 +1,39 @@
+variable "vpc_id" {
+  type = string
+}
+
+variable "route_table_id" {
+  type = string
+}
+
+variable "security_group_id" {
+  type = string
+}
+
+variable "alb_target_group_arn" {
+  type = string
+}
+
+variable "environment" {
+  type = string
+}
+
+variable "instance_type" {
+  type = string
+}
+
+variable "availability_zone" {
+  type = string
+}
+
+variable "cidr_block" {
+  type = string
+}
+
+variable "key_name" {
+  type = string
+}
+
+variable "index" {
+  type = number
+}
